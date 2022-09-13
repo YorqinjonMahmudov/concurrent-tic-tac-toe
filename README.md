@@ -24,7 +24,7 @@ Implement [com.epam.rd.autocode.concurrenttictactoe.Player](src/main/java/com/ep
 - An empty board is created.
 - Two players gets marks(`X` and `O`), created board to play, and strategies to compute another move.
 - Both players start execution in separate threads.
-- Players stop execution when the gameis over.
+- Players stop execution when the game is over.
 - The expected table state is compared to the actual one.
 
 Note, each game may not last more than 2 seconds.  
